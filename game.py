@@ -1,11 +1,12 @@
-import sys, pygame
+import pygame
+import sys
 
 size = screenWidth, screenHeight = 320, 240
 
 
 class SpaceShip:
 
-    velocity = 5
+    velocity = 0.1
 
     def __init__(self):
         self.width = 30
